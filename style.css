@@ -443,30 +443,83 @@ header {
     line-height: 1.5;
 }
 
-/* Skills Table */
-.skills-table {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+/* Magic Skills Section */
+.skills-header-center {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.skill-row {
-    padding: 15px 0;
-    border-bottom: 1px solid var(--c-border);
+.magic-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #a855f7, #ec4899);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-family: var(--f-serif);
+}
+
+.skills-pill-grid {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-pill {
+    display: flex;
+    align-items: center;
     gap: 8px;
-}
-
-.s-cat {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--c-text);
-}
-
-.s-list {
-    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* Light mode border */
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 500;
     color: var(--c-text-light);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+[data-theme="dark"] .skill-pill {
+    background: #0f0f0f;
+    border: 1px solid #222;
+    color: #888;
+}
+
+.skill-pill i {
+    font-size: 1.2rem;
+    color: var(--c-text);
+    /* Icon color matches text */
+}
+
+/* Hover Effects */
+.skill-pill:hover {
+    transform: translateY(-3px);
+    border-color: #a855f7;
+    /* Purple glow */
+    color: var(--c-text);
+    box-shadow: 0 5px 15px rgba(168, 85, 247, 0.15);
+}
+
+[data-theme="dark"] .skill-pill:hover {
+    background: #151515;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(168, 85, 247, 0.2);
+}
+
+.skill-pill:hover i {
+    color: #38bdf8;
+    /* Cyan accent for icon on hover */
 }
 
 /* Projects List */
