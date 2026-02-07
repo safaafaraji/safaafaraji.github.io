@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr" class="lenis lenis-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safaa Faraji | Software Engineer Student</title>
+    <meta name="description" content="Portfolio de Safaa Faraji, Étudiante en IT et Développeuse Web">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Icons (Remix Icon) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="code-loader">
+            <span>{</span><span>}</span>
+        </div>
+    </div>
+
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container fluid-nav">
+            <!-- New CSS Logo -->
+            <div class="logo">
+                <a href="#" class="magnetic-btn logo-container">
+                    <div class="logo-shape">
+                        <div class="shape-inner"></div>
+                    </div>
+                    <span class="logo-text">Safaa<span class="accent">.</span></span>
+                </a>
+            </div>
+
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#about" class="magnetic-btn">About</a></li>
+                    <li><a href="#projects" class="magnetic-btn">Projects</a></li>
+                    <li><a href="#skills" class="magnetic-btn">Tech Stack</a></li>
+                </ul>
+
+                <div class="header-socials">
+                    <a href="https://github.com/safaafaraji" target="_blank" class="magnetic-btn icon-link"
+                        aria-label="GitHub">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/safaa-faraji-858a263a9" target="_blank"
+                        class="magnetic-btn icon-link" aria-label="LinkedIn">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                </div>
+
+                <div class="divider-vertical"></div>
+
+                <button id="theme-toggle" class="magnetic-btn" aria-label="Toggle Dark Mode">
+                    <i class="ri-moon-line"></i>
+                </button>
+
+                <div class="hamburger magnetic-btn">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+                <li><a href="#about" class="mobile-link">About</a></li>
+                <li><a href="#projects" class="mobile-link">Projects</a></li>
+                <li><a href="#skills" class="mobile-link">Tech Stack</a></li>
+                <li><a href="mailto:safaa.faraji.fm@gmail.com" class="mobile-link">Contact</a></li>
+            </ul>
+            <div class="mobile-socials">
+                <a href="https://github.com/safaafaraji" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/in/safaa-faraji-858a263a9" target="_blank"><i
+                        class="ri-linkedin-fill"></i></a>
+            </div>
+            <button class="close-menu magnetic-btn">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-professional section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="status-badge reveal-text">Available for Opportunities</div>
+                    <h1 class="reveal-text">Building <span class="italic-serif">digital experiences</span> with
+                        precision & Code.</h1>
+                    <p class="hero-sub reveal-text delay-1">
+                        I am <strong>Safaa Faraji</strong>, a Software Engineering Student based in Morocco.
+                        I specialize in full-stack development, data analysis, and creating intuitive user interfaces.
+                    </p>
+                    <div class="hero-actions reveal-text delay-2">
+                        <a href="mailto:safaa.faraji.fm@gmail.com" class="btn-primary magnetic-btn">
+                            Get in Touch <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                        <a href="#projects" class="btn-secondary magnetic-btn">View Work</a>
+                    </div>
+                </div>
+                <div class="hero-visual-minimal reveal-img">
+                    <!-- Abstract Code Pattern could go here, or just empty space/grid -->
+                    <div class="code-block">
+                        <div class="code-line"><span class="c-keyword">class</span> <span
+                                class="c-class">Developer</span> {</div>
+                        <div class="code-line indent"> <span class="c-keyword">constructor</span>() {</div>
+                        <div class="code-line indent-2"> <span class="c-this">this</span>.name = <span
+                                class="c-string">"Safaa"</span>;</div>
+                        <div class="code-line indent-2"> <span class="c-this">this</span>.role = <span
+                                class="c-string">"Student"</span>;</div>
+                        <div class="code-line indent-2"> <span class="c-this">this</span>.passion = <span
+                                class="c-string">"Code"</span>;</div>
+                        <div class="code-line indent"> }</div>
+                        <div class="code-line">}</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Structured Info Grid -->
+        <div class="container main-grid-layout">
+
+            <!-- Left Column: Skills & Experience -->
+            <div class="col-left">
+
+                <!-- Education Timeline -->
+                <section id="about" class="info-block reveal-card">
+                    <h3 class="section-label">Education</h3>
+                    <div class="timeline-list">
+                        <div class="timeline-item">
+                            <div class="t-date">2025 - en cours</div>
+                            <div class="t-content">
+                                <h4>Licence Génie Informatique</h4>
+                                <span class="t-place">Faculté des Sciences et Techniques (FST), Settat</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="t-date">2023 - 2025</div>
+                            <div class="t-content">
+                                <h4>DUT Génie Informatique</h4>
+                                <span class="t-place">École Supérieure de Technologie (EST), Fquih Ben Saleh</span>
+                                <p class="t-desc">Major de promotion. Mention Très Bien.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Detailed Skills -->
+                <section id="skills" class="info-block reveal-card">
+                    <h3 class="section-label">Tech Stack</h3>
+                    <div class="skills-table">
+                        <div class="skill-row">
+                            <span class="s-cat">Languages</span>
+                            <div class="s-list">Java, Python, C/C++, JavaScript, SQL, HTML/CSS</div>
+                        </div>
+                        <div class="skill-row">
+                            <span class="s-cat">Frameworks & Libs</span>
+                            <div class="s-list">Spring Boot, React (Learning), JUnit, Bootstrap, Tailwind</div>
+                        </div>
+                        <div class="skill-row">
+                            <span class="s-cat">Tools & DevOps</span>
+                            <div class="s-list">Git/GitHub, Maven, Docker, IntelliJ IDEA, VS Code</div>
+                        </div>
+                        <div class="skill-row">
+                            <span class="s-cat">Data & AI</span>
+                            <div class="s-list">Pandas, NumPy, Scikit-learn, Matplotlib, OCR</div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Projects (Wide) -->
+            <div class="col-right">
+                <section id="projects" class="projects-list">
+                    <h3 class="section-label">Selected Projects</h3>
+
+                    <!-- Project 1 -->
+                    <article class="project-item reveal-card">
+                        <div class="p-header">
+                            <h4>Simulateur Motorola 6809</h4>
+                            <div class="p-links">
+                                <a href="#" class="magnetic-btn"><i class="ri-github-fill"></i> Code</a>
+                            </div>
+                        </div>
+                        <div class="p-tags">
+                            <span>Java</span><span>Maven</span><span>Architecture</span><span>Swing</span>
+                        </div>
+                        <p class="p-desc">
+                            Conception et développement d'un simulateur complet pour le microprocesseur 8-bits Motorola
+                            6809.
+                            Permet l'exécution de code assembleur, la visualisation des registres et de la mémoire en
+                            temps réel.
+                            Implémentation de l'architecture MVC pour une separation claire des responsabilités.
+                        </p>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-item reveal-card">
+                        <div class="p-header">
+                            <h4>OCR Advanced System</h4>
+                            <div class="p-links">
+                                <a href="#" class="magnetic-btn"><i class="ri-github-fill"></i> Code</a>
+                            </div>
+                        </div>
+                        <div class="p-tags">
+                            <span>Python</span><span>OpenCV</span><span>Tesseract</span><span>Image Processing</span>
+                        </div>
+                        <p class="p-desc">
+                            Système de reconnaissance optique de caractères (OCR) haute performance capable de traiter
+                            des documents complexes.
+                            Intègre des algorithmes de prétraitement d'image (binaurisation, débruitage) pour améliorer
+                            la précision de la reconnaissance.
+                        </p>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-item reveal-card">
+                        <div class="p-header">
+                            <h4>Cyber Range Simulation</h4>
+                            <div class="p-links">
+                                <a href="#" class="magnetic-btn"><i class="ri-github-fill"></i> Code</a>
+                            </div>
+                        </div>
+                        <div class="p-tags">
+                            <span>Cybersecurity</span><span>Networking</span><span>Virtualization</span>
+                        </div>
+                        <p class="p-desc">
+                            Mise en place d'un environnement virtuel (Cyber Range) pour la simulation d'attaques et de
+                            défenses réseaux.
+                            Scénarios incluant des attaques DDoS, SQL Injection et analyse de trafic avec Wireshark.
+                        </p>
+                    </article>
+
+                </section>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="simple-footer section">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2026 Safaa Faraji. Built with precision.</p>
+                    <div class="socials-footer">
+                        <a href="mailto:safaa.faraji.fm@gmail.com">Email</a>
+                        <a href="https://www.linkedin.com/in/safaa-faraji-858a263a9" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/safaafaraji" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
