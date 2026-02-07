@@ -8,7 +8,7 @@ A high-performance, aesthetically pleasing portfolio website designed to showcas
 
 ---
 
-## 📊 Architecture & Flow
+##  Architecture & Flow
 
 This diagram illustrates the structure of the application and how different components interact.
 
@@ -33,7 +33,7 @@ graph TD
     end
 ```
 
-## 📈 Tech Stack Analysis
+## Tech Stack Analysis
 
 A visual breakdown of the technologies and skills highlighted in this portfolio.
 
@@ -47,15 +47,15 @@ pie
     "Performance Optimization" : 5
 ```
 
-## ✨ Key Features
+##  Key Features
 
-- **🎨 Futuristic Design**: Inspired by top-tier portfolios, featuring a "Bento" grid layout and glassmorphism.
-- **🌗 Dark/White Mode**: Fully integrated theme switcher with persistent storage.
-- **🏎️ Smooth Scrolling**: Powered by Locomotive Scroll / Lenis for a premium feel.
-- **📱 Fully Responsive**: Optimized for all devices, including a custom full-screen mobile menu.
-- **⚡ Performance**: Lightweight, no heavy frameworks, just pure code quality.
+- **Futuristic Design**: Inspired by top-tier portfolios, featuring a "Bento" grid layout and glassmorphism.
+- **Dark/White Mode**: Fully integrated theme switcher with persistent storage.
+- **Smooth Scrolling**: Powered by Locomotive Scroll / Lenis for a premium feel.
+- **Fully Responsive**: Optimized for all devices, including a custom full-screen mobile menu.
+- **Performance**: Lightweight, no heavy frameworks, just pure code quality.
 
-## 🚀 Future Updates (Roadmap)
+##  Future Updates (Roadmap)
 
 We are constantly improving. Here is what is coming next:
 
@@ -65,7 +65,7 @@ We are constantly improving. Here is what is coming next:
 - [ ] **Multi-Language Support**: Add French/English toggle.
 - [ ] **Project Case Studies**: Dedicated pages for deep-diving into major projects.
 
-## 🛠️ Installation & Modification
+## Installation & Modification
 
 1. **Clone the repository**
    ```bash
