@@ -75,6 +75,10 @@
                     <i class="ri-moon-line"></i>
                 </button>
 
+                <button id="lang-toggle" class="magnetic-btn font-code" aria-label="Toggle Language">
+                    FR
+                </button>
+
                 <div class="hamburger magnetic-btn">
                     <i class="ri-menu-3-line"></i>
                 </div>
@@ -86,10 +90,11 @@
     <div class="mobile-menu-overlay">
         <div class="mobile-menu-content">
             <ul class="mobile-nav-links">
-                <li><a href="#about" class="mobile-link">About</a></li>
-                <li><a href="#projects" class="mobile-link">Projects</a></li>
-                <li><a href="#skills" class="mobile-link">Tech Stack</a></li>
-                <li><a href="mailto:safaa.faraji.fm@gmail.com" class="mobile-link">Contact</a></li>
+                <li><a href="#about" class="mobile-link" data-i18n="nav_about">About</a></li>
+                <li><a href="#projects" class="mobile-link" data-i18n="nav_projects">Projects</a></li>
+                <li><a href="#skills" class="mobile-link" data-i18n="nav_skills">Tech Stack</a></li>
+                <li><a href="mailto:safaa.faraji.fm@gmail.com" class="mobile-link" data-i18n="nav_contact">Contact</a>
+                </li>
             </ul>
             <div class="mobile-socials">
                 <a href="https://github.com/safaafaraji" target="_blank"><i class="ri-github-fill"></i></a>
@@ -108,18 +113,19 @@
         <section id="home" class="hero-professional section">
             <div class="container hero-grid">
                 <div class="hero-content">
-                    <div class="status-badge reveal-text">Available for Opportunities</div>
-                    <h1 class="reveal-text">Building <span class="italic-serif">digital experiences</span> with
+                    <div class="status-badge reveal-text" data-i18n="hero_status">Available for Opportunities</div>
+                    <h1 class="reveal-text" data-i18n="hero_title">Building <span class="italic-serif">digital
+                            experiences</span> with
                         precision & Code.</h1>
-                    <p class="hero-sub reveal-text delay-1">
+                    <p class="hero-sub reveal-text delay-1" data-i18n="hero_sub">
                         I am <strong>Safaa Faraji</strong>, a Software Engineering Student based in Morocco.
                         I specialize in full-stack development, data analysis, and creating intuitive user interfaces.
                     </p>
                     <div class="hero-actions reveal-text delay-2">
                         <a href="mailto:safaa.faraji.fm@gmail.com" class="btn-primary magnetic-btn">
-                            Get in Touch <i class="ri-arrow-right-up-line"></i>
+                            <span data-i18n="hero_contact">Get in Touch</span> <i class="ri-arrow-right-up-line"></i>
                         </a>
-                        <a href="#projects" class="btn-secondary magnetic-btn">View Work</a>
+                        <a href="#projects" class="btn-secondary magnetic-btn" data-i18n="hero_work">View Work</a>
                     </div>
                 </div>
                 <div class="hero-visual-minimal reveal-img">
@@ -149,7 +155,7 @@
 
                 <!-- Education Timeline -->
                 <section id="about" class="info-block reveal-card">
-                    <h3 class="section-label">Education</h3>
+                    <h3 class="section-label" data-i18n="edu_title">Education</h3>
                     <div class="timeline-list">
                         <div class="timeline-item">
                             <div class="t-date">2025 - en cours</div>
@@ -163,7 +169,7 @@
                             <div class="t-content">
                                 <h4>DUT Génie Informatique</h4>
                                 <span class="t-place">École Supérieure de Technologie (EST), Fquih Ben Saleh</span>
-                                <p class="t-desc">Major de promotion. Mention Très Bien.</p>
+                                <p class="t-desc" data-i18n="edu_desc1"> Mention Bien.</p>
                             </div>
                         </div>
                     </div>
@@ -172,8 +178,9 @@
                 <!-- Magic Behind Skills -->
                 <section id="skills" class="info-block reveal-card">
                     <div class="skills-header-center">
-                        <span class="section-label">My Skillset</span>
-                        <h2 class="magic-title">It<span class="gradient-text"> Knowledge</span></h2>
+                        <span class="section-label" data-i18n="skills_label">My Skillset</span>
+                        <h2 class="magic-title" data-i18n="skills_title">It<span class="gradient-text"> Knowledge</span>
+                        </h2>
                     </div>
 
                     <div class="skills-pill-grid">
@@ -211,7 +218,7 @@
             <!-- Right Column: Projects (Wide) -->
             <div class="col-right">
                 <section id="projects" class="projects-list">
-                    <h3 class="section-label">Selected Projects</h3>
+                    <h3 class="section-label" data-i18n="projects_section">Selected Projects</h3>
 
                     <!-- Project 1 -->
                     <article class="project-item reveal-card">
@@ -224,7 +231,7 @@
                         <div class="p-tags">
                             <span>Java</span><span>Maven</span><span>Architecture</span><span>Swing</span>
                         </div>
-                        <p class="p-desc">
+                        <p class="p-desc" data-i18n="project_1_desc">
                             Conception et développement d'un simulateur complet pour le microprocesseur 8-bits Motorola
                             6809.
                             Permet l'exécution de code assembleur, la visualisation des registres et de la mémoire en
@@ -244,7 +251,7 @@
                         <div class="p-tags">
                             <span>Python</span><span>OpenCV</span><span>Tesseract</span><span>Image Processing</span>
                         </div>
-                        <p class="p-desc">
+                        <p class="p-desc" data-i18n="project_2_desc">
                             Système de reconnaissance optique de caractères (OCR) haute performance capable de traiter
                             des documents complexes.
                             Intègre des algorithmes de prétraitement d'image (binaurisation, débruitage) pour améliorer
@@ -263,7 +270,7 @@
                         <div class="p-tags">
                             <span>Cybersecurity</span><span>Networking</span><span>Virtualization</span>
                         </div>
-                        <p class="p-desc">
+                        <p class="p-desc" data-i18n="project_3_desc">
                             Mise en place d'un environnement virtuel (Cyber Range) pour la simulation d'attaques et de
                             défenses réseaux.
                             Scénarios incluant des attaques DDoS, SQL Injection et analyse de trafic avec Wireshark.
@@ -278,7 +285,7 @@
         <footer class="simple-footer section">
             <div class="container">
                 <div class="footer-content">
-                    <p>&copy; 2026 Safaa Faraji. Built with precision.</p>
+                    <p>&copy; 2026 Safaa Faraji. <span data-i18n="footer_text">Built with precision.</span></p>
                     <div class="socials-footer">
                         <a href="mailto:safaa.faraji.fm@gmail.com">Email</a>
                         <a href="https://www.linkedin.com/in/safaa-faraji-858a263a9" target="_blank">LinkedIn</a>

@@ -285,6 +285,23 @@ header {
     background: var(--c-border);
 }
 
+#lang-toggle {
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 1px solid var(--c-border); */
+    transition: background 0.3s;
+}
+
+#lang-toggle:hover {
+    background: var(--c-surface-hover);
+}
+
 /* Hero */
 .hero-professional {
     height: 100vh;
