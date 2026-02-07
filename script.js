@@ -222,7 +222,14 @@ const translations = {
         project_1_desc: "Design and development of a complete simulator for the Motorola 6809 8-bit microprocessor. Allows assembly code execution and real-time visualization of registers and memory. Implements MVC architecture for clear separation of concerns.",
         project_2_desc: "High-performance Optical Character Recognition (OCR) system capable of processing complex documents. Integrates image preprocessing algorithms (binarization, denoising) to improve recognition accuracy.",
         project_3_desc: "Implementation of a virtual environment (Cyber Range) for simulating network attacks and defenses. Scenarios include DDoS attacks, SQL Injection, and traffic analysis with Wireshark.",
-        footer_text: "Built with precision."
+        footer_text: "Built with precision.",
+        // Blog
+        blog_section: "Latest Writings",
+        blog_1_title: "Mastering GSAP Animations",
+        blog_1_desc: "A deep dive into creating smooth, high-performance web animations using GreenSock.",
+        blog_2_title: "Building a Home Lab",
+        blog_2_desc: "How I set up my personal Cyber Range for testing network security protocols.",
+        read_more: "Read Article"
     },
     fr: {
         nav_about: "À propos",
@@ -242,7 +249,14 @@ const translations = {
         project_1_desc: "Conception et développement d'un simulateur complet pour le microprocesseur 8-bits Motorola 6809. Permet l'exécution de code assembleur, la visualisation des registres et de la mémoire en temps réel. Implémentation de l'architecture MVC pour une séparation claire des responsabilités.",
         project_2_desc: "Système de reconnaissance optique de caractères (OCR) haute performance capable de traiter des documents complexes. Intègre des algorithmes de prétraitement d'image (binaurisation, débruitage) pour améliorer la précision de la reconnaissance.",
         project_3_desc: "Mise en place d'un environnement virtuel (Cyber Range) pour la simulation d'attaques et de défenses réseaux. Scénarios incluant des attaques DDoS, SQL Injection et analyse de trafic avec Wireshark.",
-        footer_text: "Conçu avec précision."
+        footer_text: "Conçu avec précision.",
+        // Blog
+        blog_section: "Derniers Articles",
+        blog_1_title: "Maîtriser les Animations GSAP",
+        blog_1_desc: "Une plongée dans la création d'animations web fluides et performantes avec GreenSock.",
+        blog_2_title: "Construire un Home Lab",
+        blog_2_desc: "Comment j'ai configuré mon Cyber Range personnel pour tester les protocoles de sécurité réseau.",
+        read_more: "Lire l'Article"
     }
 };
 
